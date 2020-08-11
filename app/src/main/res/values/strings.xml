@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BandungKu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_sate_maps">Map</string>
+    <string name="title_activity_monumen_maps">Map</string>
+    <string name="title_activity_braga_maps">Map</string>
+</resources>

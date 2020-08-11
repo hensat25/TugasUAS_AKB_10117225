@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MonumenFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="202dp"
+        android:layout_height="203dp"
+        android:src="@drawable/monumen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.03" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monumen Perjuangan Rakyat"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView7"
+            app:layout_constraintVertical_bias="0.019" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="292dp"
+            android:layout_height="430dp"
+            android:text="Monumen Perjuangan atau lebih di kenal sebagai Monju merupakan salah satu tempat wisata bersejarah yang memang sudah menjadi ikon penting kota Bandung. Bagaimana tidak? Monumen Perjuangan Rakyat Jawa Barat menjadi bukti sejarah bagaimana perjuangan rakyat Jawa Barat mempertahankan kemerdekaan dari tahun 1945-1949.  Ketua Historia van Bandung, E. Ganda Permana menyampaikan, Monju juga merekam beberapa pertempuran penting yang terjadi pada masa itu melalui koleksi diorama yang dipajang di museum. Monju sendiri mulai resmi dibuka dan digunakan pada 23 Agustus 1995, dan diresmikan oleh Gubernur Jawa Barat, Raden Nana Nuriana."
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11"
+            app:layout_constraintVertical_bias="0.178" />
+
+        <Button
+            android:id="@+id/btnMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buka Map"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14"
+            app:layout_constraintVertical_bias="0.407" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

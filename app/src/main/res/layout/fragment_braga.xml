@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BragaFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JALAN BRAGA"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="178dp"
+        android:layout_height="179dp"
+        android:src="@drawable/braga"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="311dp"
+        android:layout_height="639dp"
+        android:text="Jangan bandingkan dengan Fifth Avenue di New York, Jalan Braga, Bandung tak sepanjang itu. Hanya satu kilometer saja kira-kira panjangnya. Tapi atmosfer ramainya, tak perlu ditanya. Jalan yang dahulu kala berjudul “De meest Eupoeesche winkelstraat van Indie” alias “jalan perbelanjaan bangsa eropa terkemuka di Hindia Belanda” ini selalu bikin wisatawan dari mana pun kepincut karena atmosfernya yang renyah. Kawasan yang menjadi ikon Paris van Java ini bahkan telah dikenal sejak masa penjajahan Belanda.  Padahal dahulu kala, kawasan Braga tak ubahnya sebuah jalan sempit yang mengerikan. Kerap menjadi tempat kejahatan penculikan, hingga kawasan ini diberi nama Jalan Culik atau Jalan Pedati. Namun sejak kedatangan Belanda, kawasan bronx ini menjelma kawasan bisnis dengan berdirinya sejumlah toko, bar, serta tempat-tempat hiburan malam. Disusul dengan eksistensi sejumlah butik di tahun 1920an yang menjadi kiblat fesyen kala itu.  Dan kini, eksotisme Jalan Braga tetap memincut hati wisatawan."
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:layout_constraintVertical_bias="0.175" />
+
+    <Button
+        android:id="@+id/btnMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buka Map"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
